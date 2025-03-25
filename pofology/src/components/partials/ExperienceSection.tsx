@@ -10,7 +10,7 @@ const ExperienceSection = () => {
   return (
     <>
       <SectionTitle>Experiences & Educations</SectionTitle>
-      <div className="py-15 mt-10 grid gap-8 md:grid-cols-2">
+      <div className="py-15 mt-10 grid gap-8 mx-auto">
         {/* Experience */}
         <div>
           <div className="rounded-2xl bg-white px-10 py-8 shadow-lg dark:bg-gray-700">

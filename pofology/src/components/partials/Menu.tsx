@@ -16,12 +16,12 @@ const Menu = () => {
       <div className="mx-auto flex h-16 max-w-7xl items-center px-4 md:px-6">
         <Link href="/">
           <a className="text-3xl  font-bold">
-            <span>Pofology</span>
+            <span>Timmy Li</span>
             <span className="text-primary-500">.</span>
           </a>
         </Link>
         <ul className="ml-auto hidden items-center md:flex">
-          <li>
+          {/* <li>
             <Link href="/works">
               <a
                 className={classNames(
@@ -34,8 +34,8 @@ const Menu = () => {
                 Works
               </a>
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link href="/blog">
               <a
                 className={classNames(
@@ -48,7 +48,7 @@ const Menu = () => {
                 Blog
               </a>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href="/contact">
               <a

@@ -13,8 +13,15 @@ const AboutSection = () => {
         {/* Bio */}
         <div className="">
           <p className="text-justify">
-            Hi, I am Md Mostafizur Rahman, I am a fullstack developer. I work from Dhaka, Bangladesh. I have rich
-            experience in building, designing & customizing website, web apps, mobile apps etc.
+            I am a senior studying Computer Science at Cornell University passionate
+            about building large scale software solutions and generally solving complex problems.
+            My expertise lies in full-stack engineering, machine learning, and cloud infrastructure development,
+            with experience in React, Java, and Python. I have hands-on experience with full-stack
+            and machine learning through working for GradeWiz, YC W23,
+            and cloud infrastructure with Amazon Web Services, specifically Cloudformation.
+            As an engineer, I love to learn new technologies and collaborate with knowledgeable teammates on novel problems.
+            Feel free to explore my portfolio, latest projects, or reach out for collaborations and opportunities!
+
           </p>
           <Button className="mt-5">Download CV</Button>
         </div>
