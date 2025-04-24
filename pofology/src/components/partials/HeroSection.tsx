@@ -26,7 +26,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="mt-4  flex gap-5">
-        <a
+          <a
             href="mailto:timmyjunchen@gmail.com"
             className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
             aria-label="Email"
