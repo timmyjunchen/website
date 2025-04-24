@@ -12,7 +12,9 @@ const Menu = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
   return (
-    <header className="header text-gray-700 dark:text-gray-200">
+    <header
+      className="fixed top-0 left-0 right-0 z-50 header bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 shadow"
+    >
       <div className="mx-auto flex h-16 max-w-7xl items-center px-4 md:px-6">
         <Link href="/">
           <a className="text-3xl  font-bold">
@@ -50,19 +52,37 @@ const Menu = () => {
             </Link>
           </li> */}
           <li>
-            <Link href="/contact">
-              <a
-                className={classNames(
-                  'inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
-                  {
-                    'text-primary-500': router.asPath == '/contact',
-                  }
-                )}
-              >
-                Contact
-              </a>
-            </Link>
+            <a
+              href="#about"
+              className="inline-block px-4 font-semibold transition-colors duration-150 hover:text-primary-600"
+            >
+              About
+            </a>
           </li>
+          <li>
+            <a
+              href="#experience"
+              className="inline-block px-4 font-semibold transition-colors duration-150 hover:text-primary-600"
+            >
+              Experience
+            </a>
+          </li>
+          <li>
+            <a
+              href="#projects"
+              className="inline-block px-4 font-semibold transition-colors duration-150 hover:text-primary-600"
+            >
+              Projects
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              className="inline-block px-4 font-semibold transition-colors duration-150 hover:text-primary-600"
+            >
+              Contact
+            </a>
+          </li> 
         </ul>
         <button
           type="button"

@@ -30,7 +30,7 @@ const AppLayout: React.FC<Props> = ({ children, title }) => {
         />
         <Menu />
         <div className="mt-16">{children}</div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

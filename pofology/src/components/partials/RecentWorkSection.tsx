@@ -16,16 +16,16 @@ const RecentWorkSection = () => {
               imageUrl={work.thumbnailUrl}
               category={work.category}
               title={work.title}
-              href={`/works/${work.id}`}
+              href={work.link}
             />
           ))}
       </div>
 
-      <div className="mt-10 flex justify-center">
+      {/* <div className="mt-10 flex justify-center">
         <Link href={'/works'}>
           <a className="btn">View All</a>
         </Link>
-      </div>
+      </div> */}
     </>
   );
 };

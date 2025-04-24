@@ -1,6 +1,17 @@
 import { Experience } from '@/types';
 
 export const experiences: Experience[] = [
+  {
+    jobTitle: 'Undergraduate Teaching Assistant',
+    company: 'Cornell University',
+    startDate: 'Aug 2023',
+    endDate: 'Present',
+    description: `Conducted office hours and led discussions in Java for 600+ students in Object-Oriented Programming and Data
+    Structures, and in C for 400+ students in Computer System Organization and Programming.
+    Provided timely and frequent feedback for students, fostering an environment of learning and discovery.
+    Extensively ran unit tests for programming projects and exams throughout the semester, ensuring correctness and
+    completeness.`,
+  },
 
   {
     jobTitle: 'Software Development Engineer Intern',

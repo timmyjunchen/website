@@ -18,16 +18,16 @@ const Home: NextPage = () => {
   return (
     <AppLayout title="Home">
       <HeroSection />
-      <section className="container pt-20 pb-10">
+      <section id="about" className="container pt-20 pb-10">
         <AboutSection />
       </section>
-      <section className="container py-16">
+      <section id="experience" className="container py-16">
         <ExperienceSection />
       </section>
       {/* <section className="container py-16">
         <ServiceSection />
       </section> */}
-      <section className="container py-16">
+      <section id="projects" className="container py-16">
         <RecentWorkSection />
       </section>
       {/* <section className="container py-16">
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
       <section className="container py-16">
         <BlogSection />
       </section> */}
-      <section className="container py-16">
+      <section id="contact" className="container py-16">
         <ContactSection />
       </section>
     </AppLayout>

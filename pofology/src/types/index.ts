@@ -27,6 +27,7 @@ export type Work = {
   title: string;
   category: string;
   thumbnailUrl: string;
+  link: string;
   description?: string;
   images: string[];
   previewUrl: string;

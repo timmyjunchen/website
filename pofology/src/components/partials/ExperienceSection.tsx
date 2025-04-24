@@ -9,7 +9,7 @@ import SectionTitle from '@/components/shared/SectionTitle';
 const ExperienceSection = () => {
   return (
     <>
-      <SectionTitle>Experiences & Educations</SectionTitle>
+      <SectionTitle>Experiences & Education</SectionTitle>
       <div className="py-15 mt-10 grid gap-8 mx-auto">
         {/* Experience */}
         <div>
@@ -55,7 +55,6 @@ const ExperienceSection = () => {
                   <p className="mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-200">
                     {education.school}
                   </p>
-                  <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-200">{education.description}</p>
                 </li>
               ))}
             </ol>
